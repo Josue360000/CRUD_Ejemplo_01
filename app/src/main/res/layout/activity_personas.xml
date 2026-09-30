@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fecha_nacimiento" />
+        app:layout_constraintTop_toBottomOf="@+id/fechanac" />
 
     <EditText
         android:id="@+id/telefono"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/nombres" />
 
     <EditText
-        android:id="@+id/fecha_nacimiento"
+        android:id="@+id/fechanac"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -96,7 +96,7 @@
         app:layout_constraintTop_toBottomOf="@+id/apellidos" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnagregar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
