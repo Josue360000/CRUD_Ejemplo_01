@@ -2,8 +2,8 @@ package com.example.crud_ejemplo_01.Database;
 
 public class DBConfig
 {
-    private static final String DATABASE_NAME = "personas.db";
-    private static final int DATABASE_VERSION = 1;
+    public static final String DATABASE_NAME = "personas.db";
+    public static final int DATABASE_VERSION = 1;
     private static final String TABLE_PERSONAS = "personas";
 
     private static final String COLUMN_ID = "id";

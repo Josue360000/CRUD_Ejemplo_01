@@ -4,11 +4,10 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import androidx.annotation.Nullable;
+public class DatabaseHelper extends SQLiteOpenHelper {
 
-public class DatabaseHelper extends SQLiteOpenHelper{
-    public DatabaseHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+    public DatabaseHelper(Context context) {
+        super(context, DBConfig.DATABASE_NAME, null, DBConfig.DATABASE_VERSION);
     }
 
     @Override
